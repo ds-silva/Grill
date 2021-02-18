@@ -1,0 +1,16 @@
+main > .container {
+   margin-top: 7.25rem;
+   margin-bottom: 3rem;
+}
+
+#recipe-img {
+    width: 70%;
+}
+
+main > .container > .row .col-lg-8 {
+    border: 2px solid red;
+}
+
+#recipe-ingredient div {
+    display: flex;
+}

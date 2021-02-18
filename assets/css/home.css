@@ -1,0 +1,56 @@
+
+/*============== Hero Section ==============*/
+
+#buttons-hero-section {
+    display: flex;
+    justify-content: center;
+}
+
+.tab-pane .row .col-lg-4 div {
+    margin-top: 30px;
+    margin-bottom: 23px !important;
+}
+
+
+
+/*============== Specials Section ==============*/
+
+#video-recipe-button {
+    text-transform: uppercase;
+    padding: 12px 5px;
+    border-radius: 50px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 10px 0 4px;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    border: 2px solid #ffb03b;
+}
+
+#video-recipe-button:hover {
+    background: #ffb03b;
+    color: #fff;
+}
+
+
+
+
+@media (max-width: 453px) {
+
+    #buttons-hero-section {
+        flex-direction: column !important;
+    }
+
+    #buttons-hero-section div:nth-last-child(2)  {
+        margin-bottom: 10px !important;
+    }
+
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    #video-recipe-button {
+        font-size: 0.875rem !important;
+    }
+    
+}
